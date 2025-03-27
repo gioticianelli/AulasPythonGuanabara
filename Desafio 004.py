@@ -6,3 +6,4 @@ print('É alfabetico? ', x.isalpha())
 print('Está em maiúsculas? ', x.isupper())
 print('Está em minúsculas? ', x.islower())
 print('Está capitalizada? ', x.istitle())
+
