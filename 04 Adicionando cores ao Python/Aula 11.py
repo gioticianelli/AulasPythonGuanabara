@@ -1,0 +1,37 @@
+print(30 * '-')
+print('LETRA')
+print(30 * '-')
+print('\033[30mPRETO\033[m')
+print('\033[31mVERMELHO\033[m')
+print('\033[32mVERDE\033[m')
+print('\033[33mAMARELO\033[m')
+print('\033[34mAZUL\033[m')
+print('\033[35mROXO\033[m')
+print('\033[36mVERDE ÁGUA\033[m')
+print('\033[37mCINZA\033[m')
+print(30 * '-')
+print('BACKGROUND')
+print(30 * '-')
+print('\033[40mPRETO\033[m')
+print('\033[41mVERMELHO\033[m')
+print('\033[42mVERDE\033[m')
+print('\033[43mAMARELO\033[m')
+print('\033[44mAZUL\033[m')
+print('\033[45mROXO\033[m')
+print('\033[46mVERDE ÁGUA\033[m')
+print('\033[47mCINZA\033[m')
+print(30 * '-')
+print('STYLE')
+print(30 * '-')
+print('\033[0mNENHUM\033[m')
+print('\033[1mNEGRITO\033[m')
+print('\033[4mLINHA\033[m')
+print('\033[7mINVERTIDO\033[m')
+
+
+nome = input('Digite seu nome: ')
+cores = {'azul': '\033[34m', 'limpa': '\033[m'}
+
+print('Olá! {}{}{}'.format(cores['azul'], nome, cores['limpa']))
+
+
